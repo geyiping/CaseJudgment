@@ -152,7 +152,7 @@ function downloadCSV() {
   a.href = url;
 
   // 用 subjectID 来生成文件名
-  const fileName = `${subjectID}_experiment_result.csv`;
+  const fileName = `subj_${subjectID}_experiment_result.csv`;
   a.download = fileName;
 
   a.click();
