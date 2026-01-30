@@ -141,7 +141,11 @@ function downloadCSV() {
   const url = URL.createObjectURL(blob);
   const a = document.createElement("a");
   a.href = url;
-  a.download = "experiment_results.csv";
+
+  // 用 subjectID 来生成文件名
+  const fileName = `${subjectID}_experiment_result.csv`;
+  a.download = fileName;
+
   a.click();
   URL.revokeObjectURL(url);
 }
