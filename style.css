@@ -1,7 +1,11 @@
 body {
-  font-family: sans-serif;
-  text-align: center;
-  margin-top: 100px;
+  margin: 0;
+  height: 100vh;             /* 占满整个视口高度 */
+  display: flex;
+  flex-direction: column;    /* 上下排列 */
+  justify-content: center;    /* 垂直居中 */
+  align-items: center;        /* 水平居中 */
+  font-family: "Arial", sans-serif;
   background-color: #d3d3d3; /* 灰色背景 */
 }
 
@@ -22,6 +26,9 @@ body {
 
 #instruction {
   font-size: 28px;
+  word-wrap: break-word;
+  line-height: 1.8;      /* 行间距：1.8 倍字体高度 */
+  text-align: center;
   margin-bottom: 50px;
 }
 
@@ -32,5 +39,6 @@ body {
 
 #feedback {
   font-size: 24px;
+  line-height: 1.8;      /* 行间距：1.8 倍字体高度 */
   margin-top: 30px;
 }
