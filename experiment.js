@@ -57,9 +57,7 @@ document.getElementById("startBtn").addEventListener("click", () => {
 function showInstruction() {
   const groupName = groupNames[currentGroupIndex];
   instructionDiv.innerHTML = `
-  <span style="color:black;">successivamente vedrai i nomi di </span>
-  <span style="color:red;">${groupName}</span>
-  <span style="color:black;">, Premere la barra spaziatrice per continuare</span>
+  successivamente vedrai i nomi di <span style="color:red !important;">${groupName}</span>, Premere la barra spaziatrice per continuare
 `;
   wordDiv.textContent = "";
   feedbackDiv.textContent = "";
