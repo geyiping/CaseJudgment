@@ -56,11 +56,12 @@ document.getElementById("startBtn").addEventListener("click", () => {
 // ---- 显示组指导语 ----
 function showInstruction() {
   const groupName = groupNames[currentGroupIndex];
-  instructionDiv.textContent = `successivamente vedrai i nomi di ${groupName}，Premere la barra spaziatrice per continuare`;
+  instructionDiv.innerHTML = `successivamente vedrai i nomi di <span style="color:red;">${groupName}</span>, Premere la barra spaziatrice per continuare`;
   wordDiv.textContent = "";
   feedbackDiv.textContent = "";
   inInstruction = true;
 }
+
 
 // ---- 显示下一个单词 ----
 function showNextWord() {
