@@ -1,5 +1,5 @@
 const wordGroups = {
-  "lAnimali acquatici": [ // wateranimal
+  "Animali acquatici": [ // wateranimal
     "Acciuga","aragosta","Balena","branzino","Cefalo","cozza","Delfino","dentice","Eglefino","esocarpo",
     "Fagiano","fanghiglia","Gambero","gallinella","Halibut","icore","Merluzzo","muggine","Nasello","ombre",
     "Orata","ostrica","Pagello","polpo","Rombo","riccio","Salmone","sogliola","Tonno","triglia",
