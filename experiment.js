@@ -56,7 +56,11 @@ document.getElementById("startBtn").addEventListener("click", () => {
 // ---- 显示组指导语 ----
 function showInstruction() {
   const groupName = groupNames[currentGroupIndex];
-  instructionDiv.innerHTML = `successivamente vedrai i nomi di <span style="color:red;">${groupName}</span>, Premere la barra spaziatrice per continuare`;
+  instructionDiv.innerHTML = `
+  <span style="color:black;">successivamente vedrai i nomi di </span>
+  <span style="color:red;">${groupName}</span>
+  <span style="color:black;">, Premere la barra spaziatrice per continuare</span>
+`;
   wordDiv.textContent = "";
   feedbackDiv.textContent = "";
   inInstruction = true;
