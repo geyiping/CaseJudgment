@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>CaseJudgment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="container">
+
+  <!-- Here input your ID -->
+  <div id="subjectInput">
+    <p>Inserisci il tuo numero：</p>
+    <input type="text" id="subjectID" placeholder="numero">
+    <button id="startBtn">Inizia l'esperimento</button>
+  </div>
+
+  <!-- 指导语 -->
+  <div id="instruction" style="display:none;"></div>
+
+  <!-- 单词显示 -->
+  <div id="word" style="display:none;"></div>
+
+  <!-- 实验反馈 -->
+  <div id="feedback" style="display:none;"></div>
+
+  <!-- CSV 下载 -->
+  <button id="downloadBtn" style="display:none;">Scarica i dati</button>
+</div>
+
+<script src="words.js"></script>
+<script src="experiment.js"></script>
+</body>
+</html>
