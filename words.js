@@ -1,5 +1,5 @@
 const wordGroups = {
-  "Animali marini incl. mammiferi marini": [ // wateranimal
+  "Animali marini incl mammiferi marini": [ // wateranimal
     "Acciuga", "aragosta", "Anguilla", "astice", "Balena", "branzino", "Barracuda", "beluga", "Calamaro", "cozza",
     "Corallo", "cernia", "Delfino", "dentice", "Gambero", "granchio", "Merluzzo", "medusa", "Manta", "murena",
     "Narvalo", "nautilo", "Orata", "ostrica", "Platessa", "polpo", "Ricciola", "razza", "Salmone", "sogliola",
