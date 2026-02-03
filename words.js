@@ -10,7 +10,7 @@ const wordGroups = {
     "Asino", "alce", "Babbuino", "bisonte", "Bradipo", "bufalo", "Cammello", "capibara", "Cane", "cervo",
     "Cinghiale", "coniglio", "Cavallo", "canguro", "Capra", "criceto", "Daino", "dromedario", "Elefante", "ermellino",
     "Faina", "furetto", "Gatto", "giraffa", "Gazzella", "gorilla", "Iena", "ippopotamo", "Leone", "lupo",
-    "Lepre", "leopardo", "Maiale", "mucca", "Orso", "ornitorinco", "Panda", "pantera, "Pecora", "puma",
+    "Lepre", "leopardo", "Maiale", "mucca", "Orso", "ornitorinco", "Panda", "pantera", "Pecora", "puma",
     "Porcospino", "procione", "Renna", "rinoceronte", "Scoiattolo", "scimpanzé", "Tasso", "tigre", "Topo", "talpa" 
   ],
   "Uccelli": [ // birds
