@@ -1,26 +1,30 @@
 const wordGroups = {
-  "Animali acquatici": [ // wateranimal
-    "Acciuga","aragosta","Balena","branzino","Cefalo","cozza","Delfino","dentice","Eglefino","esocarpo",
-    "Fagiano","fanghiglia","Gambero","gallinella","Halibut","icore","Merluzzo","muggine","Nasello","ombre",
-    "Orata","ostrica","Pagello","polpo","Rombo","riccio","Salmone","sogliola","Tonno","triglia",
-    "Anguilla","alosa","Cernia","chirurgo","Carpa","grongo","Sardina","scorfano","Tinca","Vongola"
+  "Animali marini incl. mammiferi marini": [ // wateranimal
+    "Acciuga", "aragosta", "Anguilla", "astice", "Balena", "branzino", "Barracuda", "beluga", "Calamaro", "cozza",
+    "Corallo", "cernia", "Delfino", "dentice", "Gambero", "granchio", "Merluzzo", "medusa", "Manta", "murena",
+    "Narvalo", "nautilo", "Orata", "ostrica", "Platessa", "polpo", "Ricciola", "razza", "Salmone", "sogliola",
+    "Sardina", "seppia", "Squalo", "spigola", "Sgombro", "scampo", "Tonno", "totano", "Tricheco", "triglia",
+    "Carpa", "capodoglio", "Paguro", "plancton", "Foca", "Orca", "Polipo", "Spugna", "Tinca","Vongola"
   ],
-  "Mammiferi": [ // mammals
-    "Asino","armadillo","Bue","bisonte","Cane","capibara","Daino","Elefante","ermellino","Faina",
-    "furetto","Gatto","giraffa","Ippopotamo","irbis","Leone","lupo","Maiale","cervo","Orso",
-    "ocelot","Pecora","puma","Quokka","ratto","Scoiattolo","serval","Tigre","topo","Volpe",
-    "vombato","Zebra","zibellino","Canguro","ghiro","Lemure","linx","Tasso","dromedario","Dingo"
+  "Mammiferi terrestri": [ // mammals
+    "Asino", "alce", "Babbuino", "bisonte", "Bradipo", "bufalo", "Cammello", "capibara", "Cane", "cervo",
+    "Cinghiale", "coniglio", "Cavallo", "canguro", "Capra", "criceto", "Daino", "dromedario", "Elefante", "ermellino",
+    "Faina", "furetto", "Gatto", "giraffa", "Gazzella", "gorilla", "Iena", "ippopotamo", "Leone", "lupo",
+    "Lepre", "leopardo", "Maiale", "mucca", "Orso", "ornitorinco", "Panda", "pantera, "Pecora", "puma",
+    "Porcospino", "procione", "Renna", "rinoceronte", "Scoiattolo", "scimpanzé", "Tasso", "tigre", "Topo", "talpa" 
   ],
   "Uccelli": [ // birds
-    "Airone","anatra","Cardinale","cinciallegra","Colombo","cormorano","Falco","fringuello","Gabbiano","gazza",
-    "Ibis","passero","Pappagallo","Rondine","ricciolo","Storno","struzzo","Tacchino","tordo","Usignolo",
-    "uccello","Verdone","zigolo","Oca","piviere","picchio","Ghiandaia","gallina","Cardellino","gufo",
-    "Pernice","pavone","Allodola","merlo","Aquila","Marangone","anitra","Fagiano","beccaccia","garzetta"
+    "Airone", "anatra", "Avvoltoio", "aquila", "Allodola", "albatros", "Beccaccia", "barbaggianni", "Cinciallegra", "civetta",
+    "Corvo", "colibrì", "Cigno", "canarino", "Cicogna", "cardellino", "Fenicottero", "fringuello", "Falco", "fagiano",
+    "Gabbiano", "gazza", "Ghiandaia", "gru", "Gallina", "gufo", "Ibis", "iora", "Merlo", "marangone",
+    "Nitticora", "nibbio", "Piccione", "pavone", "Pappagallo", "pellicano", "Pettirosso", "picchio", "Rondine", "Pernice",
+    "Colomba", "Oca", "Passero", "Tacchino", "tortora", "Usignolo", "Struzzo", "Cuculo", "Verdone", "Zigolo"
   ],
-  "Insetti": [ // insectsetc
-    "Formica","farfalla","Cimice","cavalletta","Grillo","gerride","Libellula","scarabeo","scarafaggio","Zanzara",
-    "zecca","Coccinella","mosca","Vespa","verme","Termite","tarma","Bombice","baco","Mantide",
-    "Farfallina","formicaleone","Moscerino","cimicep","Tarantola","scorpione","ragno","opilione","aracnide","pidocchio",
-    "Pulce","calabrone","dermaptera","forficula","apion","cimicidae","culex","chironomus","coleottero","saltamartino"
+  "Insetti e affini": [ // insectsetc
+    "Ape", "acaro", "Blatta", "bruco", "Bombo", "baco", "Cicala", "cavalletta", "Cimice", "coleottero",
+    "Coccinella", "centopiedi", "Cocciniglia", "crisalide", "Formica", "farfalla", "Libellula", "lucciola", "Locusta", "larva", 
+    "Mantide", "mosca", "Moscerino", "millepiedi", "Maggiolino", "moscardino", "Pulce", "pidocchio", "Scarabeo", "scolopendra",
+    "Scarafaggio", "scorpione", "Termite", "tarantola",  "Tarma", "tarlo", "Tafano", "tignola",  "Zanzara", "zecca",
+    "Falena", "Afide", "Grillo", "Moscone", "Vespa", "Calabrone", "Dittero"
   ]
 };
